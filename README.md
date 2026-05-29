@@ -1,131 +1,46 @@
 # AI LEARNING JOURNEY
 
-## Day 1 - OpenAI Chatbot
-
-## Goal
-
-Build my first AI application using the OpenAI API.
-
-## What I Learned
-
-### 1. OpenAI API Basics
-
-* Created an OpenAI API account
-* Generated an API key
-* Learned how API requests work
-* Sent prompts to GPT-5 and received responses
-
-### 2. Environment Variables
-
-* Learned why secrets should not be stored in source code
-* Created a `.env` file
-* Used `python-dotenv`
-* Used `os.getenv()` to securely load API keys
-
-### 3. Python Concepts
-
-* Imports
-* While loops
-* If/Else conditions
-* User input handling
-* String operations
-
-### 4. Prompt Engineering
-
-* Used OpenAI `instructions`
-* Created different AI personas:
-
-  * AWS Architect
-  * Medical Educator
-  * Teacher
-  * Software Engineering Interviewer
-* Observed how AI responses change based on instructions
-
-### 5. Token Usage
-
-* Printed `response.usage`
-* Learned that OpenAI billing is based on tokens
-* Observed input, output, and total token counts
-
-## Project Features
-
-### AI Roles
-
-Users can choose:
-
-* AWS Architect
-* Medical Educator
-* Teacher
-* Software Engineering Interviewer
-
-### Chat Features
-
-* Interactive chat loop
-* Exit command
-* Empty input validation
-* Role-based responses
-* Token usage display
-
-## Example Architecture
-
-User Input
-↓
-Python Application
-↓
-OpenAI SDK
-↓
-GPT-5 Model
-↓
-AI Response
-↓
-Display Response + Usage
-
-## Key Concepts Learned
-
-* API Keys
-* Environment Variables
-* Prompt Engineering
-* AI Instructions
-* Token Usage
-* OpenAI SDK
-* Basic AI Application Architecture
-
-## Next Steps
-
-### Day 2
-
-* Conversation Memory
-* Message History
-* Chat Context
-* Remembering User Information
-
-### Future Goals
-
-* FastAPI Backend
-* Web UI
-* Streaming Responses
-* RAG
-* Vector Databases
-* LangChain
-* LangGraph
-* AI Agents
+A hands-on learning repo for building AI applications day by day — from a simple OpenAI chatbot to FastAPI, streaming, and beyond.
 
 ## Repository Structure
 
-ai-chat-app/
-├── app.py
-├── .env
-├── requirements.txt
-└── README.md
+```
+ai-learning-journey/
+│
+├── day-01-openai-chatbot/      ✅ Complete
+│   ├── app.py
+│   ├── requirements.txt
+│   └── README.md
+│
+├── day-02-memory-chatbot/      🔜 Planned
+├── day-03-streaming-chatbot/   🔜 Planned
+├── day-04-fastapi-chatbot/     🔜 Planned
+│
+└── notes/
+```
 
-## Status
+## Progress
 
-✅ OpenAI API Connected
+| Day | Topic | Status |
+|-----|-------|--------|
+| 01 | OpenAI Chatbot | ✅ Complete |
+| 02 | Conversation Memory | 🔜 Planned |
+| 03 | Streaming Responses | 🔜 Planned |
+| 04 | FastAPI Backend | 🔜 Planned |
 
-✅ Chatbot Working
+## Getting Started
 
-✅ Multiple AI Roles Implemented
+Start with Day 1:
 
-✅ Token Usage Tracking
+```bash
+cd day-01-openai-chatbot
+```
 
-🚀 Ready for Conversation Memory
+See [day-01-openai-chatbot/README.md](day-01-openai-chatbot/README.md) for setup and run instructions.
+
+## Roadmap
+
+* Conversation memory and message history
+* Streaming responses
+* FastAPI backend and web UI
+* RAG, vector databases, LangChain, LangGraph, and AI agents

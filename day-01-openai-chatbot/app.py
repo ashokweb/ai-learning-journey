@@ -58,4 +58,3 @@ while True:
     # Print response
     print("\nAI: ", response.output_text)
     print()
-    
